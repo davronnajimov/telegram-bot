@@ -9,7 +9,9 @@ matplotlib.use("Agg")
 import matplotlib.pyplot as plt
 
 
-TOKEN = "8355860399:AAFlKYEFhw4IPZUK4I9g-MkYP9NxiaMVaRs"
+import os
+
+TOKEN = os.getenv("TOKEN")
 bot = telebot.TeleBot(TOKEN)
 user_last_binance = {}  # chat_id -> "BTCUSDT" kabi
 # ------------------- GLOBAL STATE -------------------
