@@ -1,2 +1,3 @@
 pyTelegramBotAPI
 pandas
+mplfinance
